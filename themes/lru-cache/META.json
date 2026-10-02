@@ -1,0 +1,12 @@
+{
+  "id": "lru-cache",
+  "name": "LRU Cache with TTL",
+  "description": "Data structure design: capacity-based LRU eviction, TTL expiration, recency introspection, and cache analytics.",
+  "estimatedMinutes": 80,
+  "sections": [
+    "Capacity and LRU eviction",
+    "Time-to-live expiration",
+    "Explicit removal and recency introspection",
+    "Analytics and edge cases"
+  ]
+}

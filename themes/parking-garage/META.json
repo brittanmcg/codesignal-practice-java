@@ -1,0 +1,12 @@
+{
+  "id": "parking-garage",
+  "name": "Parking Garage System",
+  "description": "OOP simulation: size-matched parking, billing, a waitlist, and analytics.",
+  "estimatedMinutes": 80,
+  "sections": [
+    "Core parking flow",
+    "Size matching and billing",
+    "Buses and a waitlist",
+    "Analytics and edge cases"
+  ]
+}

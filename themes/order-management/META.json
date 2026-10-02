@@ -1,0 +1,12 @@
+{
+  "id": "order-management",
+  "name": "Order & Inventory Management System",
+  "description": "CRUD + business rules: atomic order validation, lifecycle, discounts, reporting.",
+  "estimatedMinutes": 80,
+  "sections": [
+    "Inventory and basic orders",
+    "Order lifecycle",
+    "Discounts and stricter validation",
+    "Reporting"
+  ]
+}

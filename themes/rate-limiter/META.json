@@ -1,0 +1,12 @@
+{
+  "id": "rate-limiter",
+  "name": "API Rate Limiter",
+  "description": "Algorithmic: fixed-window and sliding-window limiting, per-client overrides, a block list, and usage analytics.",
+  "estimatedMinutes": 80,
+  "sections": [
+    "Fixed window limiting",
+    "Sliding window log",
+    "Per-client limits and blocking",
+    "Analytics and edge cases"
+  ]
+}
