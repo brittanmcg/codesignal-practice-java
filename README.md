@@ -7,12 +7,11 @@ suite pass. Same four themes, same specs, ported to Java + Maven + JUnit 5.
 
 ## Setup (one-time)
 
-You need a JDK (17+) and Maven on your `PATH`, plus Node (only for the generator script):
+You need a JDK (17+) and Maven on your `PATH`:
 
 ```bash
 java -version
 mvn -version
-node --version
 ```
 
 On macOS with Homebrew: `brew install openjdk maven`.
@@ -20,14 +19,14 @@ On macOS with Homebrew: `brew install openjdk maven`.
 ## Starting a practice run
 
 ```bash
-node scripts/new-attempt.js
+java scripts/NewAttempt.java
 ```
 
 This lists the available themes and lets you pick one interactively. To skip straight to a theme:
 
 ```bash
-node scripts/new-attempt.js parking-garage
-node scripts/new-attempt.js --list
+java scripts/NewAttempt.java parking-garage
+java scripts/NewAttempt.java --list
 ```
 
 It copies that theme's starter into a fresh timestamped folder under `attempts/` — each attempt is a
